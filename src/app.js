@@ -8,10 +8,10 @@ const domainName = (window.onload = function() {
   let noun = ["jogger", "racoon"];
   let domain = [".com"];
 
-  pronoun.forEach(i => {
-    adj.forEach(j => {
-      noun.forEach(k => {
-        domain.forEach(l => {
+  pronoun.forEach(pronoun => {
+    adj.forEach(adj => {
+      noun.forEach(noun => {
+        domain.forEach(domain => {
           domainName.push("  " + pronoun + adj + noun + domain);
         });
       });
