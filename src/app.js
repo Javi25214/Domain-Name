@@ -12,7 +12,7 @@ const domainName = (window.onload = function() {
     adj.forEach(j => {
       noun.forEach(k => {
         domain.forEach(l => {
-          domainName.push("  " + pronoun[i] + adj[j] + noun[k] + domain[l]);
+          domainName.push("  " + pronoun + adj + noun + domain);
         });
       });
     });
